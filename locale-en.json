@@ -1236,7 +1236,7 @@
     "asset_to_withdraw": "Asset to withdraw:",
     "support_block": "For support, please contact OpenLedger at:",
     "rudex_support_block": "For support, please contact RuDEX at:",
-    "rudex_min_amount": "Minimum amount: %(min_amount)",
+    "rudex_min_amount": "Minimum amount: %(minAmount)s %(symbol)s",
     "valid_address": "Please enter a valid %(coin_type)s address",
     "withdraw_coin": "Withdraw %(coin)s (%(symbol)s)",
 	  "convert_coin": "Convert to %(coin)s (%(symbol)s)",
