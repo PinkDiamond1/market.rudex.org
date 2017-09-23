@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width"/>
     <meta name="format-detection" content="telephone=no">
     <title>RuDEX Market</title>
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'; default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.cloudflare.com https://bitshares.openledger.info; style-src 'self' 'unsafe-inline'; connect-src 'self' *; font-src 'self' data: https://www.chatbro.com https://www.transwiser.com; img-src 'self' data: https://www.transwiser.com https://chatbro.com https://www.chatbro.com https://api.telegram.org https://chart.googleapis.com; child-src 'self';">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'; default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.cloudflare.com https://bitshares.openledger.info; style-src 'self' 'unsafe-inline'; connect-src 'self' *; font-src 'self' data: https://www.transwiser.com; img-src 'self' * data:; child-src 'self'; frame-src https://chat.rudex.org">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="app.css">
     <style>
@@ -34,12 +34,6 @@
                 if (content) content.className = "electron " + window.process.platform;
             }
         }
-    </script>
-    <script id="chatBroEmbedCode">
-        /* Chatbro Widget Embed Code Start */
-        function ChatbroLoader(chats,async) {async=async!==false;var params={embedChatsParameters:chats instanceof Array?chats:[chats],needLoadCode:typeof Chatbro==='undefined'};var xhr=new XMLHttpRequest();xhr.withCredentials = true;xhr.onload=function(){eval(xhr.responseText.replace(/\\\/\\\/www/g , "https:\\\/\\\/www").replace(/window.location.protocol.replace\("http","ws"\)\+this.chatbroWwwHost/g,'this.chatbroWwwHost.replace("https:","wss:")').replace(/window.location.protocol\+this.chatbroWwwHost/g,'this.chatbroWwwHost').replace(/chatbroWwwHost="\/\/"/g,'chatbroWwwHost="https:\/\/"').replace(/window.location.protocol/g,"'https:'"))};xhr.onerror=function(){console.error('Chatbro loading error')};xhr.open('POST','https://www.chatbro.com/embed_chats/',async);xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');xhr.send('parameters='+encodeURIComponent(JSON.stringify(params)))}
-        /* Chatbro Widget Embed Code End */
-        ChatbroLoader({encodedChatId: '49Vq', allowDefaultInvite: false, menuItems: [{url: "https://t.me/rudextrollbox", title: "Telegram", iconUrl: "//www.chatbro.com/images/telegram_logo.png"}]});
     </script>
 </head>
 <body>

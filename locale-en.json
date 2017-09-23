@@ -927,7 +927,8 @@
     "show_star_1": "Show",
     "show_star_2": "only",
     "base": "Base currency:",
-    "search": "Search for more markets here"
+    "search": "Search for more markets here",
+    "trollbox": "Trollbox"
   },
   "fees": {
     "title": "Fee Schedule"
