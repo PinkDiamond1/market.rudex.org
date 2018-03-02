@@ -1440,8 +1440,8 @@
       "min_amount_error": "Please enter number >= minimum",
       "coming_soon": "Coming soon",
       "under_construction": "Under Construction",
-      "openledger_close": "Recently there were many problems with OpenLedger gateway. Please check this official statement by OpenLedger about using their gateways:",
-      "take_the_risk": "Take the risk"
+      "openledger_notice1": "Read the official position of OpenLedger on the use of their gateways:",
+      "openledger_notice1_informed": "I have read and am informed about OpenLedgers position."
     },
     "unavailable": "The gateway service for this asset is currently down, please try again later",
     "unavailable_bridge": "The bridge service for this asset is currently down, please try again later",
