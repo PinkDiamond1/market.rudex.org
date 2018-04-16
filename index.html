@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"/>
     <meta name="format-detection" content="telephone=no">
-    <title>RuDEX Market</title>
-    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'; default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.cloudflare.com https://bitshares.openledger.info; style-src 'self' 'unsafe-inline'; connect-src 'self' *; font-src 'self' data: https://www.transwiser.com; img-src 'self' * data:; child-src 'self'; frame-src https://chat.rudex.org">
+    <title>RuDEX</title>
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'; default-src 'self'; script-src https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/ 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' *; font-src 'self' data:;img-src 'self' data:; frame-src https://chat.rudex.org;">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="app.css">
     <style>
@@ -38,20 +38,10 @@
 </head>
 <body>
     <main id="content">
-        <h1 class="centerDiv" style="">Загрузка...</h1>
+        <h1 class="centerDiv" style="">Loading...</h1>
     </main>
 
 <script src="app.js" charset="utf-8"></script>
-<script>
-    var BTSW = window.BTSW || {};
-    (function () {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.async = true;
-        script.src = 'https://bitshares.openledger.info/widgets/2/w.js?ref=' + ref;
-        var entry = document.getElementsByTagName('script')[0];
-        entry.parentNode.insertBefore(script, entry);
-    }());
-</script>
+
 </body>
 </html>
