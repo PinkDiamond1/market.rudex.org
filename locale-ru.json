@@ -194,8 +194,8 @@
         "optional": {
             "formatter":
                 "При необходимости {restore_link} или создайте аккаунт с помощью {restore_form}.",
-            "restore_link": "восстановить ваш аккаунт",
-            "restore_form": "расширенная форма"
+            "restore_link": "восстановите Ваш аккаунт",
+            "restore_form": "расширенной формы"
         },
         "search": "Search for an account",
         "new_user": "Новый пользователь?",
