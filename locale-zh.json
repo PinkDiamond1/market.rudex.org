@@ -1613,9 +1613,9 @@
             "为了提高浏览器钱包的安全性，我们已经将服务迁移至以下地址。请更新您的书签。",
         "text_1": "检测到本地钱包",
         "text_2":
-            "请立刻备份钱包，并在 <a href='https://wallet.bitshares.org' target='blank' rel='noopener noreferrer'>https://wallet.bitshares.org</a>将钱包恢复。请今后使用此地址访问浏览器钱包。感谢您一贯的支持。",
+            "请立刻备份钱包，并在 <a href='https://market.rudex.org' target='blank' rel='noopener noreferrer'>https://market.rudex.org</a>将钱包恢复。请今后使用此地址访问浏览器钱包。感谢您一贯的支持。",
         "text_3":
-            "请今后使用 <a href='https://wallet.bitshares.org' target='blank' rel='noopener noreferrer'>https://wallet.bitshares.org</a> 访问浏览器钱包。您当前的账户和密码不变，可以继续使用。"
+            "请今后使用 <a href='https://market.rudex.org' target='blank' rel='noopener noreferrer'>https://market.rudex.org</a> 访问浏览器钱包。您当前的账户和密码不变，可以继续使用。"
     },
     "news": {
         "news": "新闻",
