@@ -496,6 +496,7 @@
         "feed_price": "Feed Price",
         "filter": "Filter...",
         "flip": "Flip",
+        "group_order_limit": "Group",
         "hide": "Hide",
         "highest_bid": "Highest bid",
         "history": "Market trades",
@@ -530,10 +531,11 @@
         "my_orders": "My open orders",
         "native": "Native",
         "new": "New",
+        "no_asks": "No asks",
         "no_balance": "Insufficient balance",
+        "no_bids": "No bids",
         "no_data": "No data",
         "no_orders": "No orders",
-        "no_bids": "No bids",
         "order_depth": "Market Depth",
         "others": "Others",
         "overbought": "Overbought",
@@ -1248,6 +1250,8 @@
     },
     "operation": {
         "annual_upgrade_account": "{account} was upgraded to annual member",
+        "asset_claim_pool":
+            "{account} claimed {amount} from asset {asset}'s fee pool",
         "asset_create": "{account} created the asset {asset}",
         "asset_fund_fee_pool":
             "{account} funded {asset} fee pool with {amount}",
@@ -1257,8 +1261,6 @@
         "asset_reserve": "{account} burned (reserved) {amount}",
         "asset_settle": "{account} requested settlement of {amount}",
         "asset_settle_cancel": "{account} cancelled settlement of {amount}",
-        "asset_claim_pool":
-            "{account} claimed {amount} from asset {asset}'s fee pool",
         "asset_update": "{account} updated the asset {asset}",
         "asset_update_feed_producers":
             "{account} updated the feed producers for the asset {asset}",
@@ -1333,11 +1335,11 @@
         "feed_producer":
             "Update the feed producers for the asset {asset} using the account {account}",
         "limit_order_buy":
-            "Place order %(order)s to buy {amount} at {price} for {account}",
+            "Place an order to buy {amount} at {price} for {account}",
         "limit_order_create":
             "Place an order to buy %(buy_amount)s for %(sell_amount)s for %(account)s",
         "limit_order_sell":
-            "Place order %(order)s to sell {amount} at {price} for {account}",
+            "Place an order to sell {amount} at {price} for {account}",
         "override_transfer":
             "Transfer {amount} from {from} to {to} by authority of {issuer}",
         "proposals": "Proposals",
@@ -1531,6 +1533,7 @@
             "The owner of %(asset)s charges a market fee of %(percent)s%% for buy orders. This fee will be subtracted from the amount you receive when your order fills, it is not paid when placing an order.",
         "memo_tip":
             "You may include any message in the memo field. Memos are optional but generally required for transfers to exchanges.",
+        "no_groups_available": "No groupings available using this API server",
         "no_price":
             "There's no recent price available for this asset that can be used to estimate its value.",
         "over_limit":
