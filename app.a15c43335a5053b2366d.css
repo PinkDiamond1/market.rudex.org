@@ -9867,6 +9867,10 @@ div.input-wrapper > div.input-right-symbol {
   height: inherit;
 }
 
+div#CenterContent {
+  padding-bottom: 2rem !important;
+}
+
 .market-layout > .left-column {
   border-right: 1px solid rgba(128, 128, 128, 0.45);
   border-top: none;
@@ -11446,7 +11450,7 @@ ul.dropdown.header-menu li.desktop-only {
   max-height: 110px;
   width: 340px;
   background-color: #999;
-  opacity: 0.4;
+  opacity: 0.75;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -11518,7 +11522,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @-webkit-keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
   }
   40% {
@@ -11527,7 +11533,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
@@ -11552,7 +11560,7 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 .circle:before {
-  content: '';
+  content: "";
   display: block;
   margin: 0 auto;
   width: 20%;
@@ -11627,8 +11635,8 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 .circle3:before {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
 }
 
 .circle4:before {
@@ -11677,7 +11685,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @-webkit-keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
   }
   40% {
@@ -11686,7 +11696,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
@@ -11720,7 +11732,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @-webkit-keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
   }
   40% {
@@ -11729,7 +11743,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
@@ -12137,6 +12153,7 @@ div.api-status a:hover .hover-icon {
 }
 
 .active-node {
+  position: relative;
   margin-bottom: 2em;
 }
 
@@ -12543,6 +12560,10 @@ Midnight = #23313d
 
 .linethrough {
   text-decoration: line-through;
+}
+
+.fixed-height-2rem tr {
+  height: 2.5rem;
 }
 
 .page-layout > .grid-block > .grid-content,
@@ -23153,48 +23174,57 @@ ul > li {
   top: 1px;
 }
 
-.icon > svg, span.icon {
+.icon > svg,
+span.icon {
   width: 1rem;
   height: 1rem;
 }
 
-.icon-14px > svg, span.icon-14px {
+.icon-14px > svg,
+span.icon-14px {
   width: 16px;
   height: 16px;
 }
 
-.icon-32px > svg, span.icon-32px {
+.icon-32px > svg,
+span.icon-32px {
   width: 32px;
   height: 32px;
 }
 
-.icon-1_5x > svg, span.icon-1_5x {
+.icon-1_5x > svg,
+span.icon-1_5x {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.icon-2x > svg, span.icon-2x {
+.icon-2x > svg,
+span.icon-2x {
   width: 2rem;
   height: 2rem;
 }
 
-.icon-3x > svg, span.icon-3x {
+.icon-3x > svg,
+span.icon-3x {
   width: 3.45rem;
   height: 3.45rem;
 }
 
-.icon-4x > svg, span.icon-4x {
-  width: 4.60rem;
-  height: 4.60rem;
+.icon-4x > svg,
+span.icon-4x {
+  width: 4.6rem;
+  height: 4.6rem;
 }
 
-.icon-5x > svg, span.icon-5x {
+.icon-5x > svg,
+span.icon-5x {
   width: 5.75rem;
   height: 5.75rem;
   margin: 24px 0 24px 0;
 }
 
-.icon-10x > svg, span.icon-10x {
+.icon-10x > svg,
+span.icon-10x {
   width: 10rem;
   height: 10rem;
   margin: 24px 0 24px 0;
@@ -23206,6 +23236,10 @@ ul > li {
 
 .icon.rotate90 > svg {
   transform: rotate(90deg);
+}
+
+.icon.rotate180 > svg {
+  transform: rotate(180deg);
 }
 
 .left-td {
