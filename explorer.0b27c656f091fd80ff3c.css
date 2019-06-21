@@ -1,0 +1,22 @@
+tr.active-witness {
+  background-color: rgba(80, 210, 194, 0.4) !important;
+  transition: background-color 0.6s ease;
+}
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.view-switcher {
+  padding-top: 1rem;
+  text-align: right;
+}
+
+.explore-witness--info {
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZXhwbG9yZXIuMGIyN2M2NTZmMDkxZmQ4MGZmM2MuY3NzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vYXBwL2NvbXBvbmVudHMvRXhwbG9yZXIvd2l0bmVzc2VzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsidHIuYWN0aXZlLXdpdG5lc3Mge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDgwLCAyMTAsIDE5NCwgMC40KSAhaW1wb3J0YW50O1xuICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuNnMgZWFzZTtcbn1cblxuLmNsaWNrYWJsZSB7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgdXNlci1zZWxlY3Q6IG5vbmU7XG59XG5cbi52aWV3LXN3aXRjaGVyIHtcbiAgcGFkZGluZy10b3A6IDFyZW07XG4gIHRleHQtYWxpZ246IHJpZ2h0O1xufVxuXG4uZXhwbG9yZS13aXRuZXNzLS1pbmZvIHtcbiAgbWFyZ2luLXRvcDogMHB4O1xuICBtYXJnaW4tYm90dG9tOiAxOHB4O1xufVxuIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7Iiwic291cmNlUm9vdCI6IiJ9*/

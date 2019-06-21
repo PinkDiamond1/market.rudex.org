@@ -1,0 +1,10 @@
+div > div.asset-list:first-child {
+  padding-top: 0.25rem;
+}
+
+div > div.asset-list {
+  padding-bottom: 0.25rem;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZXhpc3RpbmctYWNjb3VudC41OGZhM2EzMzg4MzdiYmViZmZkYy5jc3MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hcHAvY29tcG9uZW50cy9XYWxsZXQvSW1wb3J0S2V5cy5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbImRpdiA+IGRpdi5hc3NldC1saXN0OmZpcnN0LWNoaWxkIHtcbiAgcGFkZGluZy10b3A6IDAuMjVyZW07XG59XG5cbmRpdiA+IGRpdi5hc3NldC1saXN0IHtcbiAgcGFkZGluZy1ib3R0b206IDAuMjVyZW07XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOzsiLCJzb3VyY2VSb290IjoiIn0=*/
