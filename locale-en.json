@@ -3005,6 +3005,7 @@
             "progress": "Progress",
             "coming_soon": "Coming soon",
             "collecting": "Collecting",
+            "waiting": "Waiting",
             "done": "Collected"
         },
         "texts": {
