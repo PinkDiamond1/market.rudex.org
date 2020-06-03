@@ -816,9 +816,9 @@
         "volume_24": "24hr Volume",
         "scam_alert": {
             "text1": "WARNING: ",
-            "text2": "Potentially dangerous trading pair! Assets on this market are ",
-            "text3": "UNrelated ",
-            "text4": "to RuDEX – by trading on this market you claim responsibility for potential losses of your funds"
+            "text2": "Potentially dangerous trading pair! Among the assets on this market, there are some ",
+            "text3": "NOT related ",
+            "text4": " to RUDEX. By trading on this market, you assume responsibility for the potential risks and loss of your funds."
         },
         "worth_less_settlement_warning": "The current market price of {market_link} is higher than settle price",
         "your_price": "Your Call Price",
