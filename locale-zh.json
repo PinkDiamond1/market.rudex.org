@@ -66,7 +66,7 @@
         "in_open": "这是你在所有挂单中的 %(asset)s 资产的数量。",
         "in_open_value": "这是你在所有挂单中的 %(asset)s 资产的估算价值。",
         "intro_text_1": "一个属于你的去中心化平台",
-        "intro_text_2": "<b>DEX</b>完全去中心化，你可以交易比特股的核心代币（BTS）及一系列去信任，价值稳定，由市场喂价的资产如bitUSD, bitCNY, bitBTC, bitGold等等。这些资产<b>零</b>交易对手风险，而且你对资产拥有完全掌控权。",
+        "intro_text_2": "<b>DEX</b>完全去中心化，你可以交易比特股的核心代币（BTS）及一系列去信任，价值稳定，由市场喂价的资产如gpUSD, gpCNY, bitBTC, bitGold等等。这些资产<b>零</b>交易对手风险，而且你对资产拥有完全掌控权。",
         "intro_text_3": "<b>DEX</b>允许用户创建发行资产（UIAs），其能与其它UIAs或者去信任资产在本平台上交易。DEX上一位著名的发行商就是<b>OpenLedger</b>，其提供了大量资产如BTC, ETH, STEEM, DASH, LTC, DOGE等等。",
         "intro_text_4": "DEX提供给虚拟资产交易者一种传统与去中心化相结合的独特体验，交易界面易于上手。祝交易愉快！",
         "intro_text_title": "欢迎来到%(wallet_name)s",
@@ -458,7 +458,7 @@
     },
     "app_init": {
         "browser": "不支持的浏览器",
-        "browser_text": "你使用的浏览器未经过 BitShares 钱包软件的充分测试。强烈建议你备份钱包，并将其导入谷歌 Chrome 浏览器。今后经过我们充分测试后，你或许可以继续使用现在的浏览器。请了解相关风险。",
+        "browser_text": "你使用的浏览器未经过 Graphene 钱包软件的充分测试。强烈建议你备份钱包，并将其导入谷歌 Chrome 浏览器。今后经过我们充分测试后，你或许可以继续使用现在的浏览器。请了解相关风险。",
         "check_latency": "延迟检测中...",
         "check_latency_feedback": "延迟检测中 (%(pinged)s/%(totalToPing)s 节点) ...",
         "check_latency_feedback_country": "最优地区延迟检测 (%(pinged)s/%(totalToPing)s 节点)",
@@ -476,7 +476,7 @@
         "ws_status": "全节点连接状态"
     },
     "assets": {
-        "BTS": "BTS是比特股区块链的核心代币."
+        "BTS": "GPH is the core token of the Graphene Blockchain"
     },
     "boolean": {
         "false": "错",
@@ -1076,7 +1076,7 @@
     },
     "external_service_provider": {
         "bridge": {
-            "description": "桥接是一种外部服务提供者，其允许你在BitShares区块链中进行资产转换。例如，你可以发送BTC链上的BTC到桥接，其将会转换你的BTC为等价数量的BTS或者另一种BitShares区块链上的网关UIA资产（当然会有手续费）。通常，桥接不会持有你的资产，但是需要信任他们能够发送给你合适的等价目标资产。因为是外部服务提供者，在使用他们的资产与服务时，你需要审慎同意他们的条款与协议。",
+            "description": "桥接是一种外部服务提供者，其允许你在Graphene区块链中进行资产转换。例如，你可以发送BTC链上的BTC到桥接，其将会转换你的BTC为等价数量的BTS或者另一种Graphene区块链上的网关UIA资产（当然会有手续费）。通常，桥接不会持有你的资产，但是需要信任他们能够发送给你合适的等价目标资产。因为是外部服务提供者，在使用他们的资产与服务时，你需要审慎同意他们的条款与协议。",
             "short": "桥接服务",
             "what_is": "什么是桥接服务?"
         },
@@ -1084,7 +1084,7 @@
         "disabled_asset_2": "For more information visit Settings -> Entry External Service Providers. For any issues or questions please contact the gateway operator directly.",
         "expect_more": "如果你想有更多的冲/提币选项，请到 通用设置 > 外部服务提供者 处检查。",
         "gateway": {
-            "description": "网关是一种外部服务提供者，允许你在BitShares区块链中使用非原生代币进行充币、交易及提币操作。例如，你可以发送BTC链上的BTC到网关，其将会转化你的BTC为UIA（用户发行资产）到BitShares区块链上，其也承诺你可以提出（当然会有手续费）。当你在BitShares区块链上持有这种UIA资产时，网关就如同你资产的托管人。你只要使用他们任何的服务及资产就代表你默认同意他们的条款及协议。",
+            "description": "网关是一种外部服务提供者，允许你在Graphene区块链中使用非原生代币进行充币、交易及提币操作。例如，你可以发送BTC链上的BTC到网关，其将会转化你的BTC为UIA（用户发行资产）到Graphene区块链上，其也承诺你可以提出（当然会有手续费）。当你在Graphene区块链上持有这种UIA资产时，网关就如同你资产的托管人。你只要使用他们任何的服务及资产就代表你默认同意他们的条款及协议。",
             "prefix": "前缀",
             "short": "网关",
             "what_is": "什么是网关？"
@@ -1096,7 +1096,7 @@
             "landing": "登陆页面",
             "name": "名称",
             "not_now": "现在不行",
-            "table_description": "下列清单中的网关与桥接已经集成进BitShares UI，但是这并不代表任何背书。其列出了名称（字母排序），类型（桥接或网关，网关资产带有前缀，例如，RUDEX.BTC），带有更新信息的登录页面及一个到网关钱包的附属链接（如果存在，通常会是一个标志性的UI版本）。请自主审慎选择。",
+            "table_description": "下列清单中的网关与桥接已经集成进Graphene UI，但是这并不代表任何背书。其列出了名称（字母排序），类型（桥接或网关，网关资产带有前缀，例如，RUDEX.BTC），带有更新信息的登录页面及一个到网关钱包的附属链接（如果存在，通常会是一个标志性的UI版本）。请自主审慎选择。",
             "title": "选择你偏爱的服务提供者",
             "type": "类型",
             "use_none": "不使用",
@@ -1104,12 +1104,12 @@
             "wallet": "钱包"
         },
         "welcome": {
-            "explanation_dex": "BitShares 提供一种原生的去中心化交易服务, 称为 BitShares DEX。它完全运行于区块链上，不需要中心化服务，订单匹配与成交也是在链上完成。",
+            "explanation_dex": "Graphene 提供一种原生的去中心化交易服务, 称为 Graphene DEX。它完全运行于区块链上，不需要中心化服务，订单匹配与成交也是在链上完成。",
             "explanation_later": "如果你想稍后调整，可以在设置中找到选择外部服务提供者选项。",
-            "explanation_service_providers": "你可以交易任何存在与BitShares区块链上的资产（代币）。一些非原生代币由外部服务提供者（网关及桥接）提供，这些非原生代币又称之为IOU（“I owe you”），你可以在BitShares DEX上如同交易BTC一样交易它们。",
-            "explanation_what_to_do": "如果你想快速选择在BitShares UI上已经准备好的这些服务提供者，请点击“选择服务”。如果你想继续使用以前的BitShares UI，请点击“现在不行”。",
-            "first_line": "今天，让我们带你了解一下BitShares区块链及服务。",
-            "hello": "亲爱的BitShares用户"
+            "explanation_service_providers": "你可以交易任何存在与Graphene区块链上的资产（代币）。一些非原生代币由外部服务提供者（网关及桥接）提供，这些非原生代币又称之为IOU（“I owe you”），你可以在Graphene DEX上如同交易BTC一样交易它们。",
+            "explanation_what_to_do": "如果你想快速选择在Graphene UI上已经准备好的这些服务提供者，请点击“选择服务”。如果你想继续使用以前的Graphene UI，请点击“现在不行”。",
+            "first_line": "今天，让我们带你了解一下Graphene区块链及服务。",
+            "hello": "亲爱的Graphene用户"
         }
     },
     "fees": {
@@ -1150,7 +1150,7 @@
         "asset_unavailable": "%(asset)s 资产的网关暂停服务",
         "assets": {
             "bit": "bit%(asset)s 是锚定 %(backed)s 价值的金融衍生品。它 100% 去中心化，无需信任第三方中心机构，并由锁定在区块链上智能合约中的抵押物进行价值背书。",
-            "bitcny": "bitCNY 通常可与真实CNY1：1兑换，可以通过例如 Magic Wallet 提供的网关服务进行充值提现。更多信息请访问 https://www.magicw.net/",
+            "bitcny": "gpCNY 通常可与真实CNY1：1兑换，可以通过例如 Magic Wallet 提供的网关服务进行充值提现。更多信息请访问 https://www.magicw.net/",
             "bridge": "资产 %(asset)s 由真实资产 %(backed)s 1:1 储备背书。可以通过 CryptoBridge 提供的网关服务进行充值提现。",
             "gdex": "资产 %(asset)s 由真实资产 %(backed)s 1:1 储备背书。可以通过 GDEX 提供的网关服务进行充值提现。",
             "open": "资产 %(asset)s 由真实资产 %(backed)s 1:1 储备背书。可以通过 Openledger 提供的网关服务进行充值提现。",
@@ -1213,7 +1213,7 @@
                 "n_blocks": "充币需经网络%(blocks)s次确认后完成。"
             }
         },
-        "gateway_text": "网关能让你将 BitShares 中的资产与外部资产进行互换，比如 OPEN.BTC 到 BTC。",
+        "gateway_text": "网关能让你将 Graphene 中的资产与外部资产进行互换，比如 OPEN.BTC 到 BTC。",
         "generate": "生成地址",
         "generate_new": "获得新地址",
         "generate_new_memo": "获得新备注memo内容",
@@ -1506,7 +1506,7 @@
             "quantity": "数量",
             "recipient_account": "收款帐号",
             "recipient_name": "收款人名称",
-            "recipient_name_tooltip": "你可以给你要付款的对象定义一个便于识别的名称，但是不能是BitShares账户。",
+            "recipient_name_tooltip": "你可以给你要付款的对象定义一个便于识别的名称，但是不能是Graphene账户。",
             "submit": "提交",
             "title": "申请"
         },
@@ -1580,15 +1580,6 @@
         "convert": {
             "amount": "兑换数量",
             "submit": "确定"
-        },
-        "create_lock": {
-            "amount": "Amount to lock",
-            "from": "Account to lock from",
-            "submit": "Lock",
-            "targetType": "Lock Type",
-            "title": "Create Lock",
-            "type_warning": "Please choose a lock type.",
-            "warning_message": "Note that locked assets must be requested to unlock, and can only be claimed back after the unlock period has passed. Current unlock period would be %(lock_days)s days"
         },
         "deposit": {
             "address_generation_error": "不能生成地址",
@@ -1685,7 +1676,6 @@
             "no_assets": "无提现资产可用",
             "no_estimate": "此项目无可用估值",
             "no_gateways": "很遗憾,没有网关处理此提币",
-            "public_key": "Public key",
             "quantity": "数量",
             "submit": "提币",
             "withdraw": "提币"
@@ -1784,19 +1774,6 @@
         "publish_feed": "{account} 发布了喂价 {price}",
         "reg_account": "{registrar} 登记了账户 {new_account}",
         "set_proxy": "{account} 将 {proxy} 设置为投票代理",
-        "ticket_create": "{account} locked away {amount} in a ticket",
-        "ticket_types": {
-            "0": "Liquid",
-            "1": "Claimable 180 days after unlock request",
-            "2": "Claimable 360 days after unlock request",
-            "3": "Claimable 720 days after unlock request",
-            "4": "Locked forever",
-            "liquid": "Liquid",
-            "lock_180_days": "Claimable 180 days after unlock request",
-            "lock_360_days": "Claimable 360 days after unlock request",
-            "lock_720_days": "Claimable 720 days after unlock request",
-            "lock_forever": "Locked forever"
-        },
         "transfer": "{from} 将 {amount} 转账给 {to}",
         "transfer_account": "{account} 的账户权限转移给了 {to}",
         "unlisted_by": "{lister} 将 {listee} 移出清单",
@@ -1900,7 +1877,7 @@
             "add_prediction": "预测的反应形式为市场内预测市场资产及担保物的限价挂单，如果你挂了一个买单则代表你赞同这个预测，反之如果你用借来的预测市场资产挂了一个卖单则代表你反对这个预测。你也可以对下面正在进行的预测进行反对，其会与区块链上现有的一个限价单进行关联匹配。",
             "create_prediction_market_asset": "预测市场是一种特定类型的智能货币，你可以用此创建一个特定用途的输入型预测市场资产。",
             "hide_invalid_asset": "此默认选项下显示的预测市场资产是能够达到统一用户体验的通用标准市场（已给出预测及判定日期、合理的市场手续费）。关闭此项将会显示区块链上所有的资产，请务必清楚自己的行为！！！",
-            "hide_unknown_houses": "此默认选项下显示的预测市场资产是可以达到要求并能增加信任度的知名发行人。作为参与者，你需要相信此资产发行人可以按照真实世界的结果进行判定。关闭此项将会显示区块链上所有的资产，请务必清楚自己的行为！！！如果你是一位预测市场资产的发行人并想加入到默认列表中，请联系BitShares社区。",
+            "hide_unknown_houses": "此默认选项下显示的预测市场资产是可以达到要求并能增加信任度的知名发行人。作为参与者，你需要相信此资产发行人可以按照真实世界的结果进行判定。关闭此项将会显示区块链上所有的资产，请务必清楚自己的行为！！！如果你是一位预测市场资产的发行人并想加入到默认列表中，请联系Graphene社区。",
             "oppose_is_incorrect": "某人认为这个预测将确认为错，而你认为这个预测将证明为真。在区块链上，你的意见将会以你买入并持有预测市场资产的形式表现出来。",
             "oppose_proves_true": "某人认为这个预测将证明为真，而你认为这个预测将确认为错。在区块链上，你的意见将以你正在借入预测市场资产并将其出售的形式表现出来。",
             "what_is_a_prediction_market_asset": "预测市场是一种特殊种类的资产，其允许你以预测描述资产来表达赞同或者反对并可在你的意见中使用抵押物。任何用户都可创建预测市场，参加条件是：你必须相信资产发行人能够准确的在区块链上反应真实世界的结果。",
@@ -2103,7 +2080,7 @@
         "lightTheme": "白色主题",
         "local_wallet": "本地钱包模式",
         "locale": "语言选择",
-        "lookup_text": "查看来自 BTS 1.0 的未领取余额",
+        "lookup_text": "查看来自 GPH 1.0 的未领取余额",
         "low_latency": "低延迟",
         "medium_latency": "中延迟",
         "midnightTheme": "午夜黑",
@@ -2203,7 +2180,7 @@
         "borrow": {
             "borrow_tooltip": "你可以在资产总览中的抵押债仓标签下找到此功能, 或者在交易中心中点击借贷",
             "choose": "选择你想要创建抵押的智能货币",
-            "description": "使用抵押功能从比特股区块链中借贷Bit资产 (比如 bitUSD, bitCNY, 等等).",
+            "description": "使用抵押功能从比特股区块链中借贷Bit资产 (比如 gpUSD, gpCNY, 等等).",
             "do_it": "让我们开始吧",
             "get_started": "开始",
             "navigate_with_keys": "智能货币SmartCoin的生成原理将在以下步骤中解释。你可以使用方向键浏览。",
@@ -2212,13 +2189,13 @@
             "previous": "前一步",
             "steps_benefits": {
                 "text": "你可以创建一个抵押借款为你期望的智能货币SmartCoin (MPA)来提供流动性，如果要保证智能货币SmartCoin的价值，你必须提供足够价值的抵押物来保证你的抵押率处于安全的位置。另一方面，在公开市场上卖出智能货币SmartCoin将会使你生成杠杆（举例：你卖出做空，最后你需要买回来平仓）。再一方面，智能货币SmartCoin持有者将会从智能货币SmartCoin较少的波动中获利，并且他们可以发起强制清算来获取等价值的抵押物，而无需从市场中购买。",
-                "text_legend": "强制清算：智能货币SmartCoin持有者可以发起强制清算。抵押率最低的债仓可以使用智能货币强制平仓，发起强清的智能货币SmartCoin持有者会以智能货币来获得对应价值的抵押物。剩余的抵押物会返还给债仓持有者。为了防止此功能被滥用，强制清算会延时（24小时）进行。\n强制清算价格：此价格为强制清算成交时的价格。计算方式为：强制清算价格=喂价+喂价*强清补偿参数。强清补偿参数是为了防止强清功能被滥用。所有强制清算都会转换为基础抵押物(例如，bitUSD的基础抵押物为BTS).",
+                "text_legend": "强制清算：智能货币SmartCoin持有者可以发起强制清算。抵押率最低的债仓可以使用智能货币强制平仓，发起强清的智能货币SmartCoin持有者会以智能货币来获得对应价值的抵押物。剩余的抵押物会返还给债仓持有者。为了防止此功能被滥用，强制清算会延时（24小时）进行。\n强制清算价格：此价格为强制清算成交时的价格。计算方式为：强制清算价格=喂价+喂价*强清补偿参数。强清补偿参数是为了防止强清功能被滥用。所有强制清算都会转换为基础抵押物(例如，gpUSD的基础抵押物为GPH).",
                 "title": "益处",
                 "title_within": "益处是什么?"
             },
             "steps_concept": {
                 "text": "比特股区块链的用户都可以通过提供抵押物来抵押借款创建智能货币SmartCoins(MPA)。你只有归还你创建的智能货币才能解锁抵押物，你实际上是从比特股区块链中借出智能货币。",
-                "text_legend": "例如 bitUSD: 以BTS作为抵押物来借出bitUSD",
+                "text_legend": "例如 gpUSD: 以GPH作为抵押物来借出gpUSD",
                 "title": "设想",
                 "title_within": "什么是抵押借款？"
             },
@@ -2582,7 +2559,6 @@
             "proposal_create": "创建提案",
             "proposal_delete": "删除提案",
             "proposal_update": "更新提案",
-            "ticket_create": "Create ticket",
             "transfer": "转账",
             "transfer_from_blind": "从隐私账户转出",
             "transfer_to_blind": "向隐私账户转账",
@@ -2648,8 +2624,8 @@
         "free": "免费",
         "from": "从",
         "header": "转账详情",
-        "header_subheader": "可以将资产转账给其他 BitShares 帐号持有者",
-        "header_subheader_propose": "提议从一个 %(wallet_name)s账户发送资产到另一BitShares账户. 提议方就是发起这次交易的账户.",
+        "header_subheader": "可以将资产转账给其他 Graphene 帐号持有者",
+        "header_subheader_propose": "提议从一个 %(wallet_name)s账户发送资产到另一Graphene账户. 提议方就是发起这次交易的账户.",
         "memo": "备注/消息",
         "memo_unlock": "解锁钱包/账户以查看备注",
         "optional": "可选",
@@ -2720,10 +2696,7 @@
         }
     },
     "voting": {
-        "create_ticket": "Lock 1 {asset}",
-        "description": "比特股区块链允许BTS token持有者投票决定区块生产者(见证人), 理事会成员(区块链管理者), 工作提案(任务赏金及BSIPs/Polls战略决策)。",
-        "increase_voting_power": "Create Lock",
-        "ticket_explanation": "Obtain voting power by locking away the core token BTS.",
+        "description": "比特股区块链允许GPH token持有者投票决定区块生产者(见证人), 理事会成员(区块链管理者), 工作提案(任务赏金及BSIPs/Polls战略决策)。",
         "title": "投票"
     },
     "walkthrough": {
@@ -2781,7 +2754,7 @@
         "brainkey_w1": "警告: 将密钥打印出来，或记录在纸上妥善保存。",
         "brainkey_w2": "任何人获得了你的脑钱包密钥信息将",
         "brainkey_w3": "可以获得钱包中资金的使用权限。",
-        "bts_09_export": "BTS 0.9.3c 私钥导出文件 (.json)",
+        "bts_09_export": "GPH 0.9.3c 私钥导出文件 (.json)",
         "cancel": "取消",
         "change": "切换到钱包 %(name)s",
         "change_backup": "你已经修改了密码，强烈建议你创建一个新的备份文件。",
@@ -2827,13 +2800,13 @@
         "generated": "生成的密码",
         "go_get_started": "新手指南",
         "has_wallet": "当你创建第一个账户时，一个钱包也同时被创建，并保存在你的浏览器中。这个钱包使用提供的密码加密，其中包含账户的私钥。在创建完成后，请记得备份钱包！",
-        "import_20_notice1": "请先导入你的BTS 2.0+ 钱包备份文件",
+        "import_20_notice1": "请先导入你的GPH 2.0+ 钱包备份文件",
         "import_20_notice2": "(如果你有的话)",
         "import_backup": "导入%(wallet_name)s 2.0 钱包备份文件 (.bin)",
         "import_backup_choose": "请在对话框中选择备份文件。备份文件不会上传至远端服务器，只在本地浏览器中进行处理。",
         "import_balance": "导入余额",
-        "import_bts": "导入一个 BTS 0.9.3c 私钥导出文件",
-        "import_bts1": "从BitShares 0.9.3c导入",
+        "import_bts": "导入一个 GPH 0.9.3c 私钥导出文件",
+        "import_bts1": "从Graphene 0.9.3c导入",
         "import_key_success": "已成功导入 %(count)s 个密钥。",
         "import_keys": "导入私钥",
         "import_keys_tool": "私钥导入工具",

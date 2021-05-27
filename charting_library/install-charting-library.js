@@ -9,6 +9,7 @@ function getMD5Digest(file) {
     return hash.toUpperCase();
 }
 
+//var outputFilePath = path.join(__dirname, "charting_library.zip");
 var outputFileName = "charting_library.17.025.02b61a1c.zip";
 var outputFilePath = path.join(__dirname, outputFileName);
 const outputFile = fs.createWriteStream(outputFilePath);

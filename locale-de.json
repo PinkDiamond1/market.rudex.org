@@ -66,10 +66,10 @@
         "in_open": "Der Betrag von %(asset)s steckt in Ihren offenen Aufträgen.",
         "in_open_value": "Der geschätze Wert von %(asset)s steckt in Ihren offenen Aufträgen.",
         "intro_text_1": "Ihre dezentrale Platform",
-        "intro_text_2": "<b>Die DEX</b> ist von Natur aus dezentralisiert, ermöglicht Ihnen das Handeln von Bitshares-Kern Wertmarken, zusätzlich eine Spanne von preisstabilen Markt gebundener Anlagen wie bitUSD, bitCNY, bitBTC, bitGold und mehr. Diese Anlagen können ohne Gegenpartei-Risiko gehandelt werden und ermöglicht Ihnen die komplette Kontrolle Ihres Vermögens.",
+        "intro_text_2": "<b>Die DEX</b> ist von Natur aus dezentralisiert, ermöglicht Ihnen das Handeln von Graphene-Kern Wertmarken, zusätzlich eine Spanne von preisstabilen Markt gebundener Anlagen wie gpUSD, gpCNY, bitBTC, bitGold und mehr. Diese Anlagen können ohne Gegenpartei-Risiko gehandelt werden und ermöglicht Ihnen die komplette Kontrolle Ihres Vermögens.",
         "intro_text_3": "<b>Die DEX</b> ermöglicht Ihnen die Herausgabe eigener Anlagen (UIAs = user-issued assets), die gegen andere UIAs oder preisgebundenen Anlagen gehandelt werden können. Ein namhafter Anbieter auf der DEX ist <b>OpenLedger</b>, der verschiedene Anlagen wie BTC, ETH, STEEM, DASH, LTC, DOGE und zur Verfügung stellt.",
         "intro_text_4": "Dies gibt Händlern eine einzigartige Mischung aus traditionelles und dezentrales Handeln, alles in gewohnter Oberfläche. Erfolgreiches Tauschen!",
-        "intro_text_title": "Willkommen auf BitShares",
+        "intro_text_title": "Willkommen auf Graphene",
         "login_with": "Anmelden mit",
         "market_actions": "Markt Handlungen",
         "market_orders": "Market orders",
@@ -110,7 +110,7 @@
             "referal_fees": "Referral Fee Distribution",
             "referral_info": "As a lifetime member (LTM) you are eligable for a %(feesCashback)s% cashback on all your fees. You will also recieve cashback from markets with a referral reward. The referral reward is based on your own and your referred members market orders.",
             "referral_link": "Dein Empfehlungs-Link",
-            "referral_text": "Geben Sie diesen Link den Leuten, die Sie für Bitshares werben wollen %(wallet_name)s",
+            "referral_text": "Geben Sie diesen Link den Leuten, die Sie für Graphene werben wollen %(wallet_name)s",
             "referrals": "Empfehlungen",
             "referrer": "Empfohlen von",
             "registrar": "Registriert durch",
@@ -458,7 +458,7 @@
     },
     "app_init": {
         "browser": "Nicht unterstützter Browser",
-        "browser_text": "Ihr Browser ist unzureichend mit BitShares getestet worden. Wir empfehlen Ihnen, eine Sicherung Ihrer Wallet (digitale Brieftasche) durchzuführen und diese in den Chrome Browser zu importieren. Nutzen Sie Ihren Browser auf eigene Gefahr!",
+        "browser_text": "Ihr Browser ist unzureichend mit Graphene getestet worden. Wir empfehlen Ihnen, eine Sicherung Ihrer Wallet (digitale Brieftasche) durchzuführen und diese in den Chrome Browser zu importieren. Nutzen Sie Ihren Browser auf eigene Gefahr!",
         "check_latency": "Ausführung von Latenztests ...",
         "check_latency_feedback": "Führe Latenztests aus (%(pinged)s/%(totalToPing)s Knoten) ...",
         "check_latency_feedback_country": "Latency check in best country (%(pinged)s/%(totalToPing)s nodes)",
@@ -476,7 +476,7 @@
         "ws_status": "Websocket Verbindungsstatus"
     },
     "assets": {
-        "BTS": "BTS is the core token of the BitShares Blockchain"
+        "BTS": "GPH is the core token of the Graphene Blockchain"
     },
     "boolean": {
         "false": "falsch",
@@ -1060,7 +1060,7 @@
         },
         "workers": {
             "create": "Einen neuen Arbeiterantrag erstellen",
-            "create_text_1": "Um einen neuen Arbeiter zu erstellen, muss das nächste Formular ausgefüllt werden. Dieser Arbeiter wird durch Ihren Bitshares Account erstellt, eine lebenslange Mitgliedschaft ist hierfür notwendig.",
+            "create_text_1": "Um einen neuen Arbeiter zu erstellen, muss das nächste Formular ausgefüllt werden. Dieser Arbeiter wird durch Ihren Graphene Account erstellt, eine lebenslange Mitgliedschaft ist hierfür notwendig.",
             "create_text_2": "Wählen Sie die Parameter sorgfältig, da diese nachträglich nicht mehr geändert werden können, nachdem der Arbeiter abgeschickt worden ist!",
             "daily_pay": "Tägliche Auszahlung (BTS)",
             "date_text": "Der Starttermin sollte mindestens zwei Wochen in der Zukunft liegen. Dadurch wird den Leute genügend Zeit gegebe, um den Arbeiter zu entdecken, bewerten und abzustimmen.",
@@ -1076,7 +1076,7 @@
     },
     "external_service_provider": {
         "bridge": {
-            "description": "Bridges are external service providers that allow you to swap assets in and out of the BitShares Blockchain. For example, you can send your BTC on the Bitcoin Blockchain to a Bridge, who will swap it and give you an equivalent amount of BTS or another Gateways UIA on the BitShares Blockchain (for a fee of course). Normally, a Bridge does not hold your funds, but trust is required that they send you back the proper amount of the target asset. As it is an external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
+            "description": "Bridges are external service providers that allow you to swap assets in and out of the Graphene Blockchain. For example, you can send your BTC on the Bitcoin Blockchain to a Bridge, who will swap it and give you an equivalent amount of BTS or another Gateways UIA on the Graphene Blockchain (for a fee of course). Normally, a Bridge does not hold your funds, but trust is required that they send you back the proper amount of the target asset. As it is an external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
             "short": "Bridge",
             "what_is": "What is a Bridge?"
         },
@@ -1084,7 +1084,7 @@
         "disabled_asset_2": "For more information visit Settings -> Entry External Service Providers. For any issues or questions please contact the gateway operator directly.",
         "expect_more": "If you expect to see more deposit and withdraw options for your assets, please check the External Service Providers in Settings > General.",
         "gateway": {
-            "description": "Gateways are external service providers that allow you to deposit, trade and withdraw assets into the BitShares Blockchain that are not native to it. For example, you can send your BTC on the Bitcoin Blockchain to a Gateway, who will in turn give you an UIA (user issued asset) on the BitShares Blockchain, with the promise that you can withdraw it again (for a fee of course). While you are holding such an UIA on the BitShares Blockchain, the Gateway becomes the custodian of your funds. As it is external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
+            "description": "Gateways are external service providers that allow you to deposit, trade and withdraw assets into the Graphene Blockchain that are not native to it. For example, you can send your BTC on the Bitcoin Blockchain to a Gateway, who will in turn give you an UIA (user issued asset) on the Graphene Blockchain, with the promise that you can withdraw it again (for a fee of course). While you are holding such an UIA on the Graphene Blockchain, the Gateway becomes the custodian of your funds. As it is external service providers you implicitly agree to their Terms and Conditions by using any of their services or assets.",
             "prefix": "Prefix",
             "short": "Gateway",
             "what_is": "What is a Gateway?"
@@ -1096,7 +1096,7 @@
             "landing": "Landing Page",
             "name": "Name",
             "not_now": "Not now",
-            "table_description": "The table below lists all Gateways and Bridges that are currently integrated with the BitShares UI, this does not reflect any kind of endorsement. It lists the Name (sorted alphabetically), the type (Bridge or Gateway, and if Gateway the asset prefix, e.g. RUDEX.BTC), a link to their landing page with further information and an affiliate link to the Gateways wallet (if exists, usually a branded version of this UI). Please do your own due dilligence.",
+            "table_description": "The table below lists all Gateways and Bridges that are currently integrated with the Graphene UI, this does not reflect any kind of endorsement. It lists the Name (sorted alphabetically), the type (Bridge or Gateway, and if Gateway the asset prefix, e.g. RUDEX.BTC), a link to their landing page with further information and an affiliate link to the Gateways wallet (if exists, usually a branded version of this UI). Please do your own due dilligence.",
             "title": "Choose your preferred Service Providers",
             "type": "Type",
             "use_none": "Use none",
@@ -1104,12 +1104,12 @@
             "wallet": "Wallet"
         },
         "welcome": {
-            "explanation_dex": "BitShares offers a native decentralized exchange, the BitShares DEX. It is running completely on the blockchain with no need for centralized services, even the order matching is transparently on-chain.",
+            "explanation_dex": "Graphene offers a native decentralized exchange, the Graphene DEX. It is running completely on the blockchain with no need for centralized services, even the order matching is transparently on-chain.",
             "explanation_later": "If you want to adjust this later on, you can also choose the external service providers in the Settings.",
-            "explanation_service_providers": "You can trade anything against everything, as long as the asset (token) is available on the BitShares Blockchain. For tokens that are not native to it there exist external service providers (so called Gateways and Bridges), that allow you to trade tokens like BTC on the BitShares DEX by providing you their own IOU ('I owe you') of it.",
-            "explanation_what_to_do": "You may choose which of those service providers you want to see readily available in the BitShares UI. To do so, click 'Choose Services'. If you want to keep using the BitShares UI just like before, lick 'Not now'.",
-            "first_line": "today, we want to give you some insight on the BitShares Blockchain and services around it.",
-            "hello": "Dear BitShares' User"
+            "explanation_service_providers": "You can trade anything against everything, as long as the asset (token) is available on the Graphene Blockchain. For tokens that are not native to it there exist external service providers (so called Gateways and Bridges), that allow you to trade tokens like BTC on the Graphene DEX by providing you their own IOU ('I owe you') of it.",
+            "explanation_what_to_do": "You may choose which of those service providers you want to see readily available in the Graphene UI. To do so, click 'Choose Services'. If you want to keep using the Graphene UI just like before, lick 'Not now'.",
+            "first_line": "today, we want to give you some insight on the Graphene Blockchain and services around it.",
+            "hello": "Dear Graphene' User"
         }
     },
     "fees": {
@@ -1127,12 +1127,12 @@
         "loading": "Lade ...",
         "nosync": "Dein Verbindungsknoten ist nicht mehr synchron.",
         "synced": "Synchronisiert",
-        "title": "BitShares",
+        "title": "Graphene",
         "unsynced": "Keine Synchronisation",
         "update_available": "Aktualisierung verfügbar"
     },
     "gateway": {
-        "add_funds": "Schnell und Einfach Kapital zu Ihren Bitshares Konto <strong>%(account)s</strong> hinzufügen. Dieser Service wird durch OpenLedger bereitgestellt.",
+        "add_funds": "Schnell und Einfach Kapital zu Ihren Graphene Konto <strong>%(account)s</strong> hinzufügen. Dieser Service wird durch OpenLedger bereitgestellt.",
         "address": "Adresse",
         "address_with_memo": "%(address)s <span class=\"blocktrades-with-memo\">mit Notitz</span> %(memo)s",
         "agreement": {
@@ -1150,7 +1150,7 @@
         "asset_unavailable": "Das Gateway für %(asset)s ist nicht in Betrieb",
         "assets": {
             "bit": "bit%(asset)s ist ein Derivat, das den echten Wert von %(backed)s verfolgt. Es ist 100% dezentralisiert, benötigt kein Vertrauen und wird durch eine Sicherheit auf der Blockchain in einem Smart Contrakt hinterlegt.",
-            "bitcny": "bitCNY kann 1:1 zum echten Yuan ein- oder ausbezahlt werden, indem die Gateway des Magic Wallet Dienstes benutzt wird.  Mehr Informationen auf https://www.magicw.net/",
+            "bitcny": "gpCNY kann 1:1 zum echten Yuan ein- oder ausbezahlt werden, indem die Gateway des Magic Wallet Dienstes benutzt wird.  Mehr Informationen auf https://www.magicw.net/",
             "bridge": "Die %(asset)s Anlage ist 1:1 durch echte  %(backed)s hinterlegt und kann ein- oder ausgezahlt werden. Der Gateway-Dienst wird durch CryptoBridge bereitgestellt",
             "gdex": "Die %(asset)s Anlage ist 1:1 durch echte  %(backed)s hinterlegt und kann ein- oder ausgezahlt werden. Der Gateway-Dienst wird durch Gdex bereitgestellt",
             "open": "Die %(asset)s Anlage ist 1:1 durch echte  %(backed)s hinterlegt und kann ein- oder ausgezahlt werden. Der Gateway-Dienst wird durch OpenLedger bereitgestellt",
@@ -1271,7 +1271,7 @@
         "website": "Webseite besuchen",
         "withdraw": "Auszahlung",
         "withdraw_coin": "Auszahlung von %(coin)s (%(symbol)s)",
-        "withdraw_funds": "Sie werden Kapital von Ihren Bitshares Konto zu Ihren externen Konto %(asset)s auszahlen.",
+        "withdraw_funds": "Sie werden Kapital von Ihren Graphene Konto zu Ihren externen Konto %(asset)s auszahlen.",
         "withdraw_history_status": {
             "audited": "Prüfung abgeschlossen",
             "auditing": "Prüfung der Auszahlung",
@@ -1333,7 +1333,7 @@
         "payments_legacy": "Senden (überholt)",
         "settings": "Einstellungen",
         "showcases": "Spotlight",
-        "title": "BitShares Benutzeroberfläche",
+        "title": "Graphene Benutzeroberfläche",
         "unlock": "Entsperren",
         "unlock_password": "Anmeldung mit einem Passwort",
         "unlock_short": "Anmeldung",
@@ -1393,7 +1393,7 @@
             "borrow": "Leihen",
             "buy": "Kaufen"
         },
-        "download": "Laden Sie eine neue Version der Bitshares Benutzeroberfläche herunter",
+        "download": "Laden Sie eine neue Version der Graphene Benutzeroberfläche herunter",
         "excel": ".csv herunterladen",
         "eye": "Verbindungsknoten verstecken",
         "eye-striked": "Verbindungsknoten zeigen",
@@ -1506,7 +1506,7 @@
             "quantity": "Quantity",
             "recipient_account": "Recipient Account",
             "recipient_name": "Recipient Name",
-            "recipient_name_tooltip": "You can define an arbitrary plaintext name for yourself to indicate who is being paid. Must not be a BitShares account name.",
+            "recipient_name_tooltip": "You can define an arbitrary plaintext name for yourself to indicate who is being paid. Must not be a Graphene account name.",
             "submit": "Submit",
             "title": "Request"
         },
@@ -1568,7 +1568,7 @@
             "confirm": "CONFIRM",
             "create_committee": "Become a committee member",
             "from": "From",
-            "text": "After being voted in as active committee you can help set policies and parameters for the BitShares blockchain including: <ul><li>Transaction fees</li><li>Parameters of BitAssets (e.g. market fees)</li><li>Blockchain parameters (e.g. block size & interval)</li><li>Referral and vesting parameters (e.g. cash back percent for life-time-members and vesting period)</li><li>Other governance matters</li></ul> Submit a link to your website or forum post explaining why yo would be a exemplary member to attract enough votes to become active. Committee members should have basic technical understanding of BitShares and bring knowledge and expertise in key aspects of governing an autonomous and self-sustaining blockchain. This is an unpaid position.",
+            "text": "After being voted in as active committee you can help set policies and parameters for the Graphene blockchain including: <ul><li>Transaction fees</li><li>Parameters of gpAssets (e.g. market fees)</li><li>Blockchain parameters (e.g. block size & interval)</li><li>Referral and vesting parameters (e.g. cash back percent for life-time-members and vesting period)</li><li>Other governance matters</li></ul> Submit a link to your website or forum post explaining why yo would be a exemplary member to attract enough votes to become active. Committee members should have basic technical understanding of Graphene and bring knowledge and expertise in key aspects of governing an autonomous and self-sustaining blockchain. This is an unpaid position.",
             "url": "URL",
             "web_example": "Enter link to your committee proposal post"
         },
@@ -1580,15 +1580,6 @@
         "convert": {
             "amount": "Betrag zum Tauschen",
             "submit": "Ok"
-        },
-        "create_lock": {
-            "amount": "Amount to lock",
-            "from": "Account to lock from",
-            "submit": "Lock",
-            "targetType": "Lock Type",
-            "title": "Create Lock",
-            "type_warning": "Please choose a lock type.",
-            "warning_message": "Note that locked assets must be requested to unlock, and can only be claimed back after the unlock period has passed. Current unlock period would be %(lock_days)s days"
         },
         "deposit": {
             "address_generation_error": "Adresse konnte nicht genieriert werden.",
@@ -1674,7 +1665,7 @@
             "address_not_valid": "Ungültige Adresse",
             "amount": "Auszahlender Betrag",
             "available": "Verfügbar",
-            "bitshares_account": "Überweisung zum Bitshares Konto",
+            "bitshares_account": "Überweisung zum Graphene Konto",
             "cancel": "Abbrechen",
             "cannot_cover": "Ungültiges Guthaben!",
             "estimated_value": "Geschätzter Wert",
@@ -1696,7 +1687,7 @@
             "enter_public_signing_key": "Enter your public signing key",
             "invalid_key": "Public Key is invalid",
             "public_signing_key": "Public Signing Key",
-            "text": "After being voted in as an active witness you are added in the rotation of block producers and expected to produce blocks signed by your signing key and you are rewarded in BTS per produced block. Common criteria that help make your case are <ul><li>implementation of fallbacks (e.g. running a hot swap backup server) and appropriate server specifications to ensure a low number of missed blocks (e.g. high connectivity)</li><li>participation in block production and rolling releases of the testnet</li><li>provision of a public node for the community</li><li>publication of price feeds for the BitAssets</li></ul> Submit a link to your website or forum post explaining why you would be a exemplary member to attract enough votes to become active.",
+            "text": "After being voted in as an active witness you are added in the rotation of block producers and expected to produce blocks signed by your signing key and you are rewarded in BTS per produced block. Common criteria that help make your case are <ul><li>implementation of fallbacks (e.g. running a hot swap backup server) and appropriate server specifications to ensure a low number of missed blocks (e.g. high connectivity)</li><li>participation in block production and rolling releases of the testnet</li><li>provision of a public node for the community</li><li>publication of price feeds for the gpAssets</li></ul> Submit a link to your website or forum post explaining why you would be a exemplary member to attract enough votes to become active.",
             "url": "URL",
             "web_example": "Enter link to your witness proposal post",
             "witness_account": "Witness Account"
@@ -1784,19 +1775,6 @@
         "publish_feed": "{account} hat eine Preisangabe von {price} veröffentlicht.",
         "reg_account": "{registrar} hat das Konto {newaccount} registriert.",
         "set_proxy": "{account} hat {proxy} als seinen Vertreter eingestellt.",
-        "ticket_create": "{account} locked away {amount} in a ticket",
-        "ticket_types": {
-            "0": "Liquid",
-            "1": "Claimable 180 days after unlock request",
-            "2": "Claimable 360 days after unlock request",
-            "3": "Claimable 720 days after unlock request",
-            "4": "Locked forever",
-            "liquid": "Liquid",
-            "lock_180_days": "Claimable 180 days after unlock request",
-            "lock_360_days": "Claimable 360 days after unlock request",
-            "lock_720_days": "Claimable 720 days after unlock request",
-            "lock_forever": "Locked forever"
-        },
         "transfer": "{from} hat {amount} an {to} überwiesen.",
         "transfer_account": "Konto {account} wurde an {to} übertragen.",
         "unlisted_by": "{lister} hat {listee} von der Liste gestrichen.",
@@ -1900,7 +1878,7 @@
             "add_prediction": "A prediction is reflected as a limit order on the market of the prediction market asset with its collateral. This lets you create a buy order (you agree with the prediction), or a sell order with previous borrowing of the prediction market asset (you disagree with the prediction). You can also oppose one of the existing predictions listed below, which correlates to matching one of the existing limit orders on the blockchain.",
             "create_prediction_market_asset": "A prediction market is a special kind of SmartCoin. This lets you create such a prediction market asset with inputs tailored for this purpose.",
             "hide_invalid_asset": "Per default the table below only shows prediction market assets that meet common standards required for a consistent user experience (prediction and resolution date are given, and reasonable market fee). Uncheck this to show all assets that exist on the blockchain, and make sure you know what you are doing.",
-            "hide_unknown_houses": "Per default the table below only shows prediction market assets of known asset owners that meet requirements to increase their trustworthiness. As a participant, you need trust in the asset owner such that the asset will be resolved according to the real world outcome. Uncheck this to show all asset owners that exist on the blockchain, and make sure you know what you are doing. If you are the owner of a prediction market asset and want to be included in the default list, please contact the BitShares community.",
+            "hide_unknown_houses": "Per default the table below only shows prediction market assets of known asset owners that meet requirements to increase their trustworthiness. As a participant, you need trust in the asset owner such that the asset will be resolved according to the real world outcome. Uncheck this to show all asset owners that exist on the blockchain, and make sure you know what you are doing. If you are the owner of a prediction market asset and want to be included in the default list, please contact the Graphene community.",
             "oppose_is_incorrect": "You are opposing someone that thinks the prediction is incorrect. That means, you think the prediction will prove true. On the blockchain that reflects as buying and hodling the prediction market asset.",
             "oppose_proves_true": "You are opposing someone that thinks the prediction proves true. That means, you think the prediction will be incorrect. On the blockchain that reflects as borrowing and selling the prediction market asset.",
             "what_is_a_prediction_market_asset": "A prediction market asset is a special kind of asset that allows you to agree or disagree with the prediction statement of the asset and put collateral behind your opinion. It can be created by any user, and if you are participating you need to trust the asset owner to properly reflects the real world outcome on the blockchain.",
@@ -2009,7 +1987,7 @@
         "walletDescription": "A bin-file will be automatically created. Please download it and keep in a safe place. You’ll need to upload this file to login to your account in the future.",
         "walletLoginByValue": "Bin-file + Password",
         "walletModelTitle": "By bin-file",
-        "walletNote": "Please keep in mind, that BitShares doesn't store users passwords and couldn't recover users accounts after password loss.",
+        "walletNote": "Please keep in mind, that Graphene doesn't store users passwords and couldn't recover users accounts after password loss.",
         "whyBinFile": "Why do I need a .bin file?"
     },
     "scaled_orders": {
@@ -2203,7 +2181,7 @@
         "borrow": {
             "borrow_tooltip": "You can also find this feature in your Dashboard under the tab Margin Positions, or by clicking  Borrow in the Exchange",
             "choose": "Choose the SmartCoin you want to create a position for",
-            "description": "Borrow a BitAsset from the BitShares Blockchain by locking up collateral (e.g. bitUSD, bitCNY, etc.)",
+            "description": "Borrow a gpAsset from the Graphene Blockchain by locking up collateral (e.g. gpUSD, gpCNY, etc.)",
             "do_it": "Let's do it",
             "get_started": "Get started",
             "navigate_with_keys": "The mechanism of the SmartCoin generation will be explained in the following steps. You can also use arrow keys to navigate",
@@ -2212,13 +2190,13 @@
             "previous": "Previous",
             "steps_benefits": {
                 "text": "Creating a Collateralized Debt Position allows you to provide liquidity for your desired SmartCoin (MPA), without giving up ownership of your collateral provided that you lock up enough collateral to guarantee the value of the SmartCoin. On the one hand, selling the newly generated SmartCoin on the open market will create leverage on your position (i.e. you sell it short, and will need to buy it back to close the position). On the other hand, holders of the SmartCoin benefit from the significantly less volatile SmartCoin, and they can additionally request a force settlement to obtain the corresponding value in its collateral without the need of markets.",
-                "text_legend": "Forced settlement: Holders of a SmartCoin can request a forced settlement. The SmartCoin is used to forcefully pay back the debt of the least collateralized positions while the former SmartCoin holder receives collateral as if he sold it for the forced settlement price. Any leftover collateral is returned to the position holder. This mechanism enforces a mandated delay after being triggered to avoid abuse (24 hours). \nForced Settlement Price: The price at which a forced settlement price will occur. It is calculated from the feed price by adding a forced settlement offset to disincentivize forced settlements. All settlements are converted to underlying backing asset (e.g. BTS in the case of bitUSD).",
+                "text_legend": "Forced settlement: Holders of a SmartCoin can request a forced settlement. The SmartCoin is used to forcefully pay back the debt of the least collateralized positions while the former SmartCoin holder receives collateral as if he sold it for the forced settlement price. Any leftover collateral is returned to the position holder. This mechanism enforces a mandated delay after being triggered to avoid abuse (24 hours). \nForced Settlement Price: The price at which a forced settlement price will occur. It is calculated from the feed price by adding a forced settlement offset to disincentivize forced settlements. All settlements are converted to underlying backing asset (e.g. BTS in the case of gpUSD).",
                 "title": "Benefits",
                 "title_within": "What are the benefits?"
             },
             "steps_concept": {
-                "text": "A Collateralized Debt Position enables every user of the BitShares Blockchain to generate SmartCoins (MPA) by providing collateral. The collateral is locked up until you pay back the SmartCoins you have generated. You are effectively borrowing the SmartCoin from the BitShares Blockchain.",
-                "text_legend": "Example bitUSD: Provide BTS as collateral to borrow bitUSD",
+                "text": "A Collateralized Debt Position enables every user of the Graphene Blockchain to generate SmartCoins (MPA) by providing collateral. The collateral is locked up until you pay back the SmartCoins you have generated. You are effectively borrowing the SmartCoin from the Graphene Blockchain.",
+                "text_legend": "Example gpUSD: Provide BTS as collateral to borrow gpUSD",
                 "title": "Concept",
                 "title_within": "What is a Collateralized Debt Position?"
             },
@@ -2228,7 +2206,7 @@
                 "title_within": ""
             },
             "steps_introduction": {
-                "text": "Use this native dApp from the BitShares Blockchain to manage depositing collateral and the generation of SmartCoins.",
+                "text": "Use this native dApp from the Graphene Blockchain to manage depositing collateral and the generation of SmartCoins.",
                 "title_within": "This is the place to generate SmartCoins (Market Pegged Assets, MPAs)"
             },
             "steps_risks": {
@@ -2338,7 +2316,7 @@
             "title": "Timed transfer"
         },
         "voting": {
-            "description": "Vote on block producers, committee members and worker proposals to influence strategic decisions and advancement of the BitShares Blockchain.",
+            "description": "Vote on block producers, committee members and worker proposals to influence strategic decisions and advancement of the Graphene Blockchain.",
             "title": "Voting"
         }
     },
@@ -2582,7 +2560,6 @@
             "proposal_create": "Vorschlag erstellen",
             "proposal_delete": "Vorschlag löschen",
             "proposal_update": "Vorschlag aktualisieren",
-            "ticket_create": "Create ticket",
             "transfer": "Überweisung",
             "transfer_from_blind": "Überweisung von blindem Konto",
             "transfer_to_blind": "Überweisung zu blinden Konten",
@@ -2648,7 +2625,7 @@
         "free": "Free",
         "from": "Von",
         "header": "Überweisungsdetails",
-        "header_subheader": "Überweisungen werden benutzt, um Kapital zu einen anderen Bitshares Konto zu schicken.",
+        "header_subheader": "Überweisungen werden benutzt, um Kapital zu einen anderen Graphene Konto zu schicken.",
         "header_subheader_propose": "Propose to send funds from one %(wallet_name)s account to another. The BY account is the account proposing the transaction.",
         "memo": "Notiz",
         "memo_unlock": "Entsperren um Notiz zu lesen.",
@@ -2720,10 +2697,7 @@
         }
     },
     "voting": {
-        "create_ticket": "Lock 1 {asset}",
-        "description": "The BitShares blockchain allows the holders of its core token BTS to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
-        "increase_voting_power": "Create Lock",
-        "ticket_explanation": "Obtain voting power by locking away the core token BTS.",
+        "description": "The Graphene blockchain allows the holders of its core token BTS to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
         "title": "Voting"
     },
     "walkthrough": {
@@ -2765,7 +2739,7 @@
         "backup_brainkey": "Gedächtnisschlüssel sichern!",
         "backup_explain": "Durch das Klicken auf den Knopf darunter, wird eine Sicherungsdatei mit der .bin-Endung erstellt. Diese Datei wird mit Ihrem Passwort verschlüsselt und beinhaltet alle privaten Schlüssel von Ihrem Konto. Diese Datei kann benutzt werden, um Ihre Wallet wiederherzustellen oder zu einem anderen Computer/Browser zu wechseln.",
         "backup_login": "Sicherung & Anmeldung",
-        "backup_new_account": "Glückwunsch, Sie haben gerade ein neues Konto auf der Bitshares Blockchain erstellt! Sie sollten jetzt auf jeden Fall eine Sicherung Ihrer Wallet erstellen! Ohne Sicherung gibt es keine Möglichkeit auf Ihr Konto zugreifen zu können.",
+        "backup_new_account": "Glückwunsch, Sie haben gerade ein neues Konto auf der Graphene Blockchain erstellt! Sie sollten jetzt auf jeden Fall eine Sicherung Ihrer Wallet erstellen! Ohne Sicherung gibt es keine Möglichkeit auf Ihr Konto zugreifen zu können.",
         "backup_types": "backup types",
         "backup_warning": "Es schaut so aus, als wäre Ihre private Schlüssel-Datei noch nicht gesichert worden. Aus Gründen der Sicherheit empfehlen wir keine Anmeldung ohne Sicherungskopie Ihres privaten Schlüssels.",
         "balance_claim_lookup": "Guthaben anschauen",
@@ -2805,7 +2779,7 @@
         "create_importkeys_text": "Damit Ihre Schlüssel importiert werden können, muss als erstes eine lokale Wallet angelegt werden. Durch das Abschließen des Dialogs unterhalb, kann eine neue lokale Wallet angelegt werden.",
         "create_password": "Neues Konto durch die Benutzung eines Passwortes erstellen.",
         "create_success": "Ihre lokale Wallet wurde erfolgreich erstellt.",
-        "create_text": "Die lokale Bitshares Wallet wird im Browser gespeichert und nicht in der Cloud. Eine Wallet kann mehrere Konten beinhalten und durch Benutzung der Sicherungsdatei zwischen Browser oder Computer einfach gewechselt werden.",
+        "create_text": "Die lokale Graphene Wallet wird im Browser gespeichert und nicht in der Cloud. Eine Wallet kann mehrere Konten beinhalten und durch Benutzung der Sicherungsdatei zwischen Browser oder Computer einfach gewechselt werden.",
         "create_w_a": "Erstelle eine lokale Wallet (digitale Brieftasche, enthält den Kontonamen und nötigen privaten Schlüssel)",
         "create_wallet": "Wallet erstellen",
         "create_wallet_backup": "Eine neue Wallet von einer Sicherungsdatei erstellen.",
@@ -2826,14 +2800,14 @@
         "first_account_paid": "Da dies Ihr erstes Konto ist, wird ein Aufnehmer Ihre Registrierungsgebühren übernehmen.",
         "generated": "Erzeugtes Passwort",
         "go_get_started": "Beginnen",
-        "has_wallet": "Wenn Sie Ihr erstes Bitshares Konto anlegen, wird automatisch eine lokale Wallet erstellt, die in Ihrem Browser gespeichert wird. Diese lokale Wallet ist mit Ihrem Passwort verschlüsselt und enthält die privaten Schlüssel zu Ihrem Konto. Es ist wichtig, sich anschließend die Zeit zu nehmen, diese Wallet zu sicher!",
+        "has_wallet": "Wenn Sie Ihr erstes Graphene Konto anlegen, wird automatisch eine lokale Wallet erstellt, die in Ihrem Browser gespeichert wird. Diese lokale Wallet ist mit Ihrem Passwort verschlüsselt und enthält die privaten Schlüssel zu Ihrem Konto. Es ist wichtig, sich anschließend die Zeit zu nehmen, diese Wallet zu sicher!",
         "import_20_notice1": "Importieren Sie Ihre BTS 2.0+ SICHERUNG zuerst!",
         "import_20_notice2": "(falls vorhanden)",
         "import_backup": "Sicherung importieren",
         "import_backup_choose": "Bitte wählen Sie eine Sicherungsdatei im nachfolgenden Dialog aus. Dies ist komplett sicher, da die Datei nirgends hochgeladen wird und Ihren Browser nicht verlässt.",
         "import_balance": "Kontostand importieren",
         "import_bts": "Eine BTS 0.9.3c Schlüssel Datei importieren",
-        "import_bts1": "Von BitShares 0.9.3c importieren",
+        "import_bts1": "Von Graphene 0.9.3c importieren",
         "import_key_success": "Es wurden erfolgreich %(count)s Schlüssel importiert.",
         "import_keys": "Schlüssel importieren",
         "import_keys_tool": "Schlüsselimport-Werkzeug",
