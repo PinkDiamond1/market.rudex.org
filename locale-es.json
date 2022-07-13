@@ -291,7 +291,7 @@
             "disable_force_settle": " Desactivar el settling forzado",
             "error_invalid": "Ese activo no puede ser usado",
             "error_precision": "Ese activo no tiene la misma precisión que %(asset)s",
-            "error_too_deep": "No puede crear un bitasset respaldado por un bitasset respaldado por un bitasset",
+            "error_too_deep": "No puede crear un gpasset respaldado por un gpasset respaldado por un bitasset",
             "exists": "Ese activo ya existe",
             "expiry": "Fecha de resolución del mercado",
             "feed_lifetime_sec": "Feed tiempo de vida en minutos",
@@ -810,6 +810,7 @@
         "vol_short": "Vol",
         "volume": "Volumen",
         "volume_24": "24 hora volumen",
+        "volume_24_usdt": "Volumen USDT",
         "worth_less_settlement_warning": "El precio de mercado actual de {market_link} es más alto que el precio de liquidación",
         "your_price": "Su precio de llamada",
         "zoom": " Enfocar",
@@ -1127,7 +1128,7 @@
         "loading": "Cargando...",
         "nosync": "Su nodo activo no está sincronizado",
         "synced": "Sincronizado",
-        "title": "Graphene",
+        "title": "RuDEX",
         "unsynced": "Fuera de sincronización",
         "update_available": "ACTUALIZACIÓN DISPONIBLE"
     },
@@ -1245,7 +1246,7 @@
         "recent_withdraw": "Retiros recientes",
         "rudex": {
             "coming_soon": "Próximamente",
-            "min_amount": "Monto minimo: %(minAmount)s %(symbol)s",
+            "min_amount": "Monto minimo: %(minamount)s %(symbol)s",
             "min_amount_error": "Por favor ingrese número >= mínimo",
             "support_block": "Para soporte, póngase en contacto con RuDEX en:",
             "under_construction": "En Construcción"
@@ -2696,7 +2697,7 @@
         }
     },
     "voting": {
-        "description": "The Graphene blockchain allows the holders of its core token BTS to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
+        "description": "The Graphene blockchain allows the holders of its core token GPH to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
         "title": "Voting"
     },
     "walkthrough": {

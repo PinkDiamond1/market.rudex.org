@@ -810,6 +810,7 @@
         "vol_short": "Vol",
         "volume": "Volumen",
         "volume_24": "24h-Volumen",
+        "volume_24_usdt": "Volumen USDT",
         "worth_less_settlement_warning": "The current market price of {market_link} is higher than settle price",
         "your_price": "Ihr Preis",
         "zoom": "Vergrößern",
@@ -1127,7 +1128,7 @@
         "loading": "Lade ...",
         "nosync": "Dein Verbindungsknoten ist nicht mehr synchron.",
         "synced": "Synchronisiert",
-        "title": "Graphene",
+        "title": "RuDEX",
         "unsynced": "Keine Synchronisation",
         "update_available": "Aktualisierung verfügbar"
     },
@@ -1245,7 +1246,7 @@
         "recent_withdraw": "Kürzliche Auszahlung",
         "rudex": {
             "coming_soon": "Kommt bald ...",
-            "min_amount": "Minimaler Betrag: %(minAmount)s %(symbol)s",
+            "min_amount": "Minimaler Betrag: %(minamount)s %(symbol)s",
             "min_amount_error": "Bitte geben Sie eine Zahl ein >= Minimum!",
             "support_block": "Für Ünterstützung kontaktieren Sie RuDEX unter:",
             "under_construction": "In Arbeit"
@@ -2697,7 +2698,7 @@
         }
     },
     "voting": {
-        "description": "The Graphene blockchain allows the holders of its core token BTS to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
+        "description": "The Graphene blockchain allows the holders of its core token GPH to vote on block producers (witnesses), committee members (blockchain governance), worker proposals (reimbursement for tasks and strategic decisions through BSIPs/Polls).",
         "title": "Voting"
     },
     "walkthrough": {
