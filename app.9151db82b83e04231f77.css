@@ -13482,28 +13482,23 @@ div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical
   padding: 5px;
 }
 
-@media only all and (max-width: 1040px) {
+@media only all and (max-width: 870px) {
   .footer .footer-support {
     display: none !important;
   }
 }
-@media only all and (max-width: 920px) {
+@media only all and (max-width: 770px) {
   .footer .footer-listing {
     display: none !important;
   }
 }
-@media only all and (max-width: 840px) {
-  .footer .logo {
-    display: none !important;
-  }
-}
-@media only all and (max-width: 770px) {
+@media only all and (max-width: 690px) {
   .footer .footer-audit {
     display: none !important;
   }
 }
-@media only all and (max-width: 680px) {
-  .footer[class*=grid-block]:not(.ng-hide) {
+@media only all and (max-width: 640px) {
+  .footer .logo {
     display: none !important;
   }
 }
@@ -16040,28 +16035,23 @@ div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical
   padding: 5px;
 }
 
-@media only all and (max-width: 1040px) {
+@media only all and (max-width: 870px) {
   .footer .footer-support {
     display: none !important;
   }
 }
-@media only all and (max-width: 920px) {
+@media only all and (max-width: 770px) {
   .footer .footer-listing {
     display: none !important;
   }
 }
-@media only all and (max-width: 840px) {
-  .footer .logo {
-    display: none !important;
-  }
-}
-@media only all and (max-width: 770px) {
+@media only all and (max-width: 690px) {
   .footer .footer-audit {
     display: none !important;
   }
 }
-@media only all and (max-width: 680px) {
-  .footer[class*=grid-block]:not(.ng-hide) {
+@media only all and (max-width: 640px) {
+  .footer .logo {
     display: none !important;
   }
 }
@@ -18592,28 +18582,23 @@ div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical
   padding: 5px;
 }
 
-@media only all and (max-width: 1040px) {
+@media only all and (max-width: 870px) {
   .footer .footer-support {
     display: none !important;
   }
 }
-@media only all and (max-width: 920px) {
+@media only all and (max-width: 770px) {
   .footer .footer-listing {
     display: none !important;
   }
 }
-@media only all and (max-width: 840px) {
-  .footer .logo {
-    display: none !important;
-  }
-}
-@media only all and (max-width: 770px) {
+@media only all and (max-width: 690px) {
   .footer .footer-audit {
     display: none !important;
   }
 }
-@media only all and (max-width: 680px) {
-  .footer[class*=grid-block]:not(.ng-hide) {
+@media only all and (max-width: 640px) {
+  .footer .logo {
     display: none !important;
   }
 }

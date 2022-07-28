@@ -3062,6 +3062,16 @@
                 "t2": "and our teams initiates the listing procedure, that includes gateway creation and set up of the trading pairs for the asset.",
                 "t3": "Please note that the RuDEX team reserves the right to delist assets to protect our own interests and the interests of our customers."
             },
+            "terms": {
+                "t1": "If your token is included in the voting section for subsequent listing, then the target amount of DONATE tokens for its implementation will be formed according to the following rule:",
+                "t2": "The amount is determined by the position in the rating on CoinMarketCap – the higher the rating, the lower the required amount; you can see the target for each range in parentheses.",
+                "tu1": "1-100 (3000 DONATE)",
+                "tu2": "101-300 (4000 DONATE)",
+                "tu3": "301-500 (5000 DONATE)",
+                "tu4": "500-1000 (7000 DONATE)",
+                "tu5": "1001 и ниже (10000 DONATE)",
+                "t3": "For BEP20 / ERC20 / TRC20 tokens the amount is also determined by the list above, however, for those below the top 300, the target amount will be 5000 DONATE."
+            },
             "rules": {
                 "header": "Checklist for asset listing on RuDEX:",
                 "rule_1": "Please check ",

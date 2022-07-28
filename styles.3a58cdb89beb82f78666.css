@@ -1228,7 +1228,11 @@ body .listing_button .ant-btn[disabled]:hover {
     fill: white;
 }
 
-.listingTable__cell button.ant-btn {
+.buttonDonate .icon > svg path {
+    fill: white;
+}
+.listingTable__cell button.ant-btn,
+.buttonDonate {
     display: block;
     padding: 5px 20px;
 
