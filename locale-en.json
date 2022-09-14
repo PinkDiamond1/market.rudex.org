@@ -1135,7 +1135,7 @@
         }
     },
     "fees": {
-        "title": "Fee Schedule"
+        "title": "Fees"
     },
     "footer": {
         "listing": "Token Listing",
@@ -3069,7 +3069,7 @@
                 "tu2": "101-300 (4000 DONATE)",
                 "tu3": "301-500 (5000 DONATE)",
                 "tu4": "500-1000 (7000 DONATE)",
-                "tu5": "1001 и ниже (10000 DONATE)",
+                "tu5": "1001 and below (10000 DONATE)",
                 "t3": "For BEP20 / ERC20 / TRC20 tokens the amount is also determined by the list above, however, for those below the top 300, the target amount will be 5000 DONATE."
             },
             "rules": {
@@ -3083,6 +3083,12 @@
                 "rule_5": "Listing process is initiated after the crowdfunding goal is reach, and begins with the gateway launch preparation. Please provide the contacts for technical/marketing team, or any other qualified contact."
             },
             "end": "Good luck with your project and welcome to "
+        }
+    },
+    "dexbot": {
+        "settle": "Settling will allow you to exchange your DEXBOT for USDT. Settling happens on the nearest SUNDAY after settle request.",
+        "modal": {
+            "header": "Settle  "
         }
     }
 }
